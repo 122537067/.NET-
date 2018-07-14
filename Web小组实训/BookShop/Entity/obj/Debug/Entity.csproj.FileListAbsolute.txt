@@ -1,0 +1,14 @@
+E:\Web-ASP.NET\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.dll
+E:\Web-ASP.NET\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.pdb
+E:\Web-ASP.NET\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.dll
+E:\Web-ASP.NET\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.pdb
+E:\Web-ASP.NET\Web小组实训\BookShop\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.dll
+C:\Users\Administrator\Desktop\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.pdb
+C:\Users\Administrator\Desktop\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.dll
+C:\Users\Administrator\Desktop\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.pdb
+E:\Web-ASP.NET\Web小组实训_最终\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.dll
+E:\Web-ASP.NET\Web小组实训_最终\Web小组实训\BookShop\Entity\bin\Debug\BookShop.Entity.pdb
+E:\Web-ASP.NET\Web小组实训_最终\Web小组实训\BookShop\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Web-ASP.NET\Web小组实训_最终\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.dll
+E:\Web-ASP.NET\Web小组实训_最终\Web小组实训\BookShop\Entity\obj\Debug\BookShop.Entity.pdb

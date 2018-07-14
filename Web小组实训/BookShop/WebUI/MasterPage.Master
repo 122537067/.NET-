@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="BookShop.WebUI.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>咸鱼读书网</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/SearchStyle.css" rel="stylesheet" />
+    <link href="images/all.css" rel="stylesheet" />
+    <link href="images/common.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.2.1.js"></script>
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="js/SuperSlide.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="head wrapper1000">
+                <div class="logo fl">
+                    <a href="/HomePage.aspx">
+                        <img src="images/logo.png" /></a>
+                </div>
+                <div class="nav fr">
+                    <a href="/HomePage.aspx">首页</a>
+                    <a href="AllBook.aspx?show=default">读书</a>
+                    <a href="AllBook.aspx?show=newest">最新书籍</a>
+                    <a href="AllBook.aspx?show=popular">精彩书籍</a>
+                    <a href="#">关于我们</a>
+                    <asp:ContentPlaceHolder ID="UserShow" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <a id="Show1" href="/Login.aspx" runat="server">登录</a>
+                    <a id="Show2" href="/Register.aspx" runat="server">注册</a>
+                </div>
+            </div>
+            <div class="banner wrapper1000">
+                <img src="images/banner.jpg" />
+            </div>
+            <div class="search d1">
+                <input id="SearchContent" type="text" placeholder="书名、作者、ISBN" runat="server"/>
+                <button id="btnSearch" type="submit" runat="server" onserverclick="btnSearch_ServerClick"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+        </header>
+        <div class="index-body">
+            <asp:ContentPlaceHolder ID="ThisContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="clearfix"></div>
+            <div class="foot">
+                <div class="wrapper1000">
+                    <span><a href="/HomePage.aspx">首页</a>|<a href="AllBook.aspx?show=default">读书</a>|<a href="#">联系我们</a>|<a href="#">团队简介</a></span>
+                    <p>技术支持：15软件CD &nbsp&nbsp 备案号：牛IPB666666</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="js/all.js"></script>
+</body>
+</html>
